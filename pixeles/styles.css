@@ -6,7 +6,7 @@
 }
 
 html{
-    background-color: white;
+    background-color: #000C16;
 }
 
 body{
@@ -21,7 +21,7 @@ body{
 }
 
 .opciones, #logo{
-    height: 80px;      /*110 porque tiene 20 paddingtop y bottom*/
+    height: 50px;      /*110 porque tiene 20 paddingtop y bottom*/
     float: left;
     background-color: white;
     padding: 20px;
