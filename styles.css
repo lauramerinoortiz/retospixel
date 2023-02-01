@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: white;
+}
+
+body{
+    width: 1280px;
+    background-color: lightcoral;
+    height: 2000px;
+} 
+
+/*----CABECERA----*/
+#cabecera{
+    overflow: hidden;
+}
+.opciones, #logo{
+    height: 110px;      /*110 porque tiene 20 paddingtop y bottom*/
+    float: left;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+#logo{
+    width: 260px;       /*260 porque tiene 20ppading left y right*/
+    background-color: aqua ;
+}
+
+.opciones{
+    width: 205px;
+}
+
+
+/*-----CUERPO-----*/
+#cuerpo{
+    overflow: hidden;
+}
+
+#cuerpo >div{
+    float: left;
+}
+
+
+/*---IMAGEN---*/
+#imagen{
+    width: 300px;
+    height: 900px;
+    background-color: rebeccapurple;
+}
+
+
+/*----DATOS FORMULARIO----*/
+#datos{
+    padding: 80px;
+    width: 820px; /*total 980 de 820+80+80*/
+    background-color: lightgoldenrodyellow;
+    height: 740px;
+    text-align: center;
+}
+
+#datos form > label{
+    display: inline-block;
+    text-align: left;
+}
+
+/*---INPUT---*/
+#datos form >input, #datos form >textarea, #dirigido{
+    margin-top: 30px;
+}
+/*---LABEL---*/
+#labelNombre, #labelDesc, #labelOpciones, #labelDirigido{
+    width: 300px;
+}
+
+#nombre, #descripcion, #publiopciones, #dirigido{
+    width: 466px; /*466 + 4 pixeles de borde total 470*/
+    font-size: 1em;
+    margin-left: 50px;
+}
+
+
+#labelDesc{
+    vertical-align: top;        /*para que quede a la misma altura que el textarea*/
+    margin-top: 30px;
+}
+
+/*---OPCIONES---*/
+div #publiopciones{
+    margin-top: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+#publicadaNo{
+    margin-left: 100px;     /*Separamos los dos radiobutton*/
+}
+
+/*----FECHA INSCRIPCION----*/
+
