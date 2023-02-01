@@ -12,23 +12,32 @@ html{
 body{
     width: 1280px;
     background-color: lightcoral;
-    height: 2000px;
 } 
 
 /*----CABECERA----*/
 #cabecera{
     overflow: hidden;
+    text-align: center;
 }
+
 .opciones, #logo{
-    height: 110px;      /*110 porque tiene 20 paddingtop y bottom*/
+    height: 80px;      /*110 porque tiene 20 paddingtop y bottom*/
     float: left;
-    background-color: lightblue;
+    background-color: white;
     padding: 20px;
+}
+
+.opciones:hover{
+    background-color:#2988AD ;
+    cursor: pointer;
 }
 
 #logo{
     width: 260px;       /*260 porque tiene 20ppading left y right*/
-    background-color: aqua ;
+    background-image: url('https://media.istockphoto.com/id/1341681278/vector/two-hands-the-concept-of-protecting-anything-vector-illustration-interconnection.jpg?s=612x612&w=0&k=20&c=QZmkMdTLOVyzaPi-SgvHy0KNa8cC47wl0b3mfPyxsM0=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
 }
 
 .opciones{
@@ -50,7 +59,10 @@ body{
 #imagen{
     width: 300px;
     height: 900px;
-    background-color: rebeccapurple;
+    background-image: url('https://images.unsplash.com/photo-1555412654-72a95a495858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -58,26 +70,26 @@ body{
 #datos{
     padding: 80px;
     width: 820px; /*total 980 de 820+80+80*/
-    background-color: lightgoldenrodyellow;
+    background-color: #BFD9E3;
     height: 740px;
     text-align: center;
 }
 
-#datos form > label{
+#datos form  label{
     display: inline-block;
     text-align: left;
 }
 
 /*---INPUT---*/
-#datos form >input, #datos form >textarea, #dirigido{
+#datos form >input, #datos form >textarea, #dirigido, #categoria{
     margin-top: 30px;
 }
 /*---LABEL---*/
-#labelNombre, #labelDesc, #labelOpciones, #labelDirigido{
+#labelNombre, #labelDesc, #labelOpciones, #labelDirigido, #labelCategoria{
     width: 300px;
 }
 
-#nombre, #descripcion, #publiopciones, #dirigido{
+#nombre, #descripcion, #publiopciones, #dirigido, #categoria{
     width: 466px; /*466 + 4 pixeles de borde total 470*/
     font-size: 1em;
     margin-left: 50px;
@@ -90,7 +102,7 @@ body{
 }
 
 /*---OPCIONES---*/
-div #publiopciones{
+div#publiopciones{
     margin-top: 30px;
     display: inline-block;
     text-align: left;
@@ -100,5 +112,61 @@ div #publiopciones{
     margin-left: 100px;     /*Separamos los dos radiobutton*/
 }
 
-/*----FECHA INSCRIPCION----*/
+/*----FECHA INSCRIPCION Y REALIZACION----*/
 
+#inscripcion, #realizacion{
+    border: 2px solid black;
+    width: 341px; /*Total 385=381+2borde+2borde+20padding+20padding*/
+    float: left;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#inscripcion >h3, #realizacion>h3{
+    width: 230px;
+    text-align: center;
+    margin: auto;
+}
+
+#inscripcion label, #realizacion label{
+    width: 130px;
+}
+
+#inscripcion input, #realizacion input{
+    margin-top: 20px;
+    width: 187px; /*Total 191=187+2borde+2borde*/
+    text-align: center;
+    margin-left: 20px;
+}
+
+#realizacion{
+    margin-left: 50px;
+}
+
+/*----BOTONES----*/
+
+.boton{
+    width: 230px; /*Total 250=230+10 padding+10 pading*/
+    padding: 10px;
+    margin-top: 60px;
+    border: 0;
+    transition: 0.8s;
+}
+.boton:hover{
+    cursor: pointer;
+}
+
+#borrar{
+    background-color: #CC6063;
+}
+
+#borrar:hover{
+    background-color: #CC2D2D;
+}
+
+#aceptar{
+    background-color: #68DEAB;
+}
+#aceptar:hover {
+    background-color: #1BE38D;
+}

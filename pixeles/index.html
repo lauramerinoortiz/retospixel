@@ -11,10 +11,10 @@
     <!--CABECERA-->
     <div id="cabecera">
       <div id="logo"></div>
-      <div class="opciones"></div>
-      <div class="opciones"></div>
-      <div class="opciones"></div>
-      <div class="opciones"></div>
+      <div class="opciones">Opción</div>
+      <div class="opciones">Opción</div>
+      <div class="opciones">Opción</div>
+      <div class="opciones">Opción</div>
     </div>
     <!--CUERPO-->
     <div id="cuerpo">
@@ -31,7 +31,7 @@
           <label for="publiopciones" id="labelOpciones">¿Publicar ya?</label>
           <div id="publiopciones">
             <label for="publicadaSi"><input type="radio" name="opciones" id="publicadaSi">Si</label>
-            <label for="publicadaNo"><input type="radio" name="opciones" id="publicadaNo">No</label>
+            <label for="publicadaNo"><input type="radio" name="opciones" id="publicadaNo" checked>No</label>
           </div>
 
           <label for="dirigido" id="labelDirigido">Dirigido a:</label>
@@ -44,12 +44,30 @@
             <option>GS</option>
           </select>
 
+          <label for="categoria" id="labelCategoria">Categoría:</label>
+          <select id="categoria">
+            <option>-Elegir una opción-</option>
+            <option>Ahorro de agua</option>
+            <option>Reciclaje de desechos</option>
+            <option>Limpieza de las aguas</option>
+            <option>Control de gasto eléctrico</option>
+            <option>Formación sobre el medioambiente</option>
+          </select>
+
           <div id="inscripcion">
             <h3>Fecha inscripción</h3>
             <label>Fecha inicio:</label><input type="date">
             <label>Fecha fin:</label><input type="date">
           </div>
+
+          <div id="realizacion">
+            <h3>Fecha realización</h3>
+            <label>Fecha inicio:</label><input type="date">
+            <label>Fecha fin:</label><input type="date">
+          </div>
           
+          <button type="reset" class="boton" id="borrar">Borrar</button>
+          <button type="submit" class="boton" id="aceptar">Aceptar</button>
         </form>
       </div>
     </div>
