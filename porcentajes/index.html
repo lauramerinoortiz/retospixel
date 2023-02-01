@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Retos %</title>
+    <meta name="author" content="Laura Merino Ortiz">
+    <meta name="description" content="Esta es la descripción de mi web.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+    <!--CABECERA-->
+    <div id="cabecera">
+      <div id="logo"></div>
+      <div class="opciones">Opción</div>
+      <div class="opciones">Opción</div>
+      <div class="opciones">Opción</div>
+      <div class="opciones">Opción</div>
+    </div>
+    <!--CUERPO-->
+    <div id="cuerpo">
+
+      <!--IMAGEN-->
+      <div id="imagen"></div>
+
+      <!--DATOS-->
+      <div id="datos">
+        <h1>Nuevo reto</h1>
+        <form>
+          <label for="nombre" id="labelNombre">Nombre del reto:</label><input type="text" id="nombre">
+          <label for="descripcion" id="labelDesc">Descripción del reto:</label><textarea id="descripcion"></textarea>
+          <label for="publiopciones" id="labelOpciones">¿Publicar ya?</label>
+          <div id="publiopciones">
+            <label for="publicadaSi"><input type="radio" name="opciones" id="publicadaSi">Si</label>
+            <label for="publicadaNo" id="labelPublicadaNo"><input type="radio" name="opciones" id="publicadaNo" checked>No</label>
+          </div>
+
+          <label for="dirigido" id="labelDirigido">Dirigido a:</label>
+          <select id="dirigido">
+            <option>-Elegir una opción-</option>
+            <option>INFANTIL</option>
+            <option>ESO</option>
+            <option>BACHILLERATO</option>
+            <option>GM</option>
+            <option>GS</option>
+          </select>
+
+          <label for="categoria" id="labelCategoria">Categoría:</label>
+          <select id="categoria">
+            <option>-Elegir una opción-</option>
+            <option>Ahorro de agua</option>
+            <option>Reciclaje de desechos</option>
+            <option>Limpieza de las aguas</option>
+            <option>Control de gasto eléctrico</option>
+            <option>Formación sobre el medioambiente</option>
+          </select>
+
+          <div id="inscripcion">
+            <h3>Fecha inscripción</h3>
+            <label>Fecha inicio:</label><input type="date">
+            <label>Fecha fin:</label><input type="date">
+          </div>
+
+          <div id="realizacion">
+            <h3>Fecha realización</h3>
+            <label>Fecha inicio:</label><input type="date">
+            <label>Fecha fin:</label><input type="date">
+          </div>
+          
+          <button type="reset" class="boton" id="borrar">Borrar</button>
+          <button type="submit" class="boton" id="aceptar">Aceptar</button>
+        </form>
+      </div>
+    </div>
+      
+  </body>
+</html>
