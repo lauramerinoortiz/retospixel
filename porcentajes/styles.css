@@ -41,7 +41,7 @@ body{
 }
 
 .opciones{
-    width: 205px;
+    width: 16.015625%;   /*205px de 1280*/
 }
 
 
@@ -134,7 +134,7 @@ div#publiopciones{
 
 #inscripcion input, #realizacion input{
     margin-top: 5.86510264%;   /*20px de 341*/
-    width: 187px; /*Total 191=187+2borde+2borde*/
+    width: 54.8387097%; /*187 de 341 Total 191=187+2borde+2borde*/
     text-align: center;
     margin-left: 5.86510264%;
 }
