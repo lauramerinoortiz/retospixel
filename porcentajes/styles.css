@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
+    border-width: 1px;
 }
 
 html{
@@ -83,17 +85,17 @@ body{
 
 /*---INPUT---*/
 #datos form >input, #datos form >textarea, #dirigido, #categoria{
-    margin-top: 3.65853659%;    /*30px*/
+    margin-top: 3.65853659%;    /*30px de 820*/
 }
 /*---LABEL---*/
 #labelNombre, #labelDesc, #labelOpciones, #labelDirigido, #labelCategoria{
-    width: 36.5853659%; /*300px de 820px*/
+    width: 36.407767%; /*300px de 820px+4pix del borde*/
 }
 
 #nombre, #descripcion, #publiopciones, #dirigido, #categoria{
-    width: 56.8292683%; /*466 + 4 pixeles de borde total 470*/
+    width: 56.5533981%; /*466 de 820+4      466 + 4 pixeles de borde total 470*/
     font-size: 1em;
-    margin-left: 6.09756098%; /*50px*/
+    margin-left: 6.06796117%; /*50px de 820+4*/
 }
 
 
@@ -117,9 +119,9 @@ div#publiopciones{
 
 #inscripcion, #realizacion{
     border: 2px solid black;
-    width: 41.5853659%; /*341px Total 385=341+2borde+2borde+20padding+20padding*/
+    width: 41.1835749%; /*341px de 820+8 Total 385=341+2borde+2borde+20padding+20padding*/
     float: left;
-    padding: 2.43902439%; /*20px de 820*/
+    padding: 2.41545894%; /*20px de 820*/
     margin-top: 3.65853659%;
 }
 
