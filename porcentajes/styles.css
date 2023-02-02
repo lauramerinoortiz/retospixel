@@ -6,11 +6,12 @@
 }
 
 html{
+    width: 1280px;
     background-color: #000C16;
 }
 
 body{
-    width: 1280px;
+    width: 100%;
     background-color: lightcoral;
 } 
 
@@ -21,7 +22,7 @@ body{
 }
 
 .opciones, #logo{
-    height: 50px;      /*110 porque tiene 20 paddingtop y bottom*/
+    min-height: 50px;      /*110 porque tiene 20 paddingtop y bottom*/
     float: left;
     background-color: white;
     padding: 1.5625%; /*20px*/
@@ -58,7 +59,7 @@ body{
 /*---IMAGEN---*/
 #imagen{
     width: 23.4375%; /*300px*/
-    height: 900px;
+    min-height: 900px;
     background-image: url('https://images.unsplash.com/photo-1555412654-72a95a495858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
     background-repeat: no-repeat;
     background-position: center;
@@ -68,10 +69,10 @@ body{
 
 /*----DATOS FORMULARIO----*/
 #datos{
-    padding: 6.25%; /*80px*/
+    padding: 6.25%; /*80px de 1280 */
     width: 64.0625%; /*820width+80+80 total 980 de */
     background-color: #BFD9E3;
-    height: 740px;
+    min-height: 740px;
     text-align: center;
 }
 
@@ -82,7 +83,7 @@ body{
 
 /*---INPUT---*/
 #datos form >input, #datos form >textarea, #dirigido, #categoria{
-    margin-top: 30px;
+    margin-top: 3.65853659%;    /*30px*/
 }
 /*---LABEL---*/
 #labelNombre, #labelDesc, #labelOpciones, #labelDirigido, #labelCategoria{
