@@ -8,7 +8,7 @@
 }
 
 html{
-    width: 1280px;
+    /*width: 1280px;*/
     background-color: #000C16;
 }
 
@@ -174,4 +174,52 @@ div#publiopciones{
 }
 #aceptar:hover {
     background-color: #1BE38D;
+}
+
+/* --------------MEDIAQUERY---------------- */
+@media  screen and (max-width: 800px) {
+    #imagen{
+        width:100%;
+        min-height: 150px;
+    }
+    #datos{
+        width: 87.5%; /*87.5 + 6.25+6.25=100%*/
+    }
+    
+    /*----FECHA INSCRIPCION Y REALIZACION----*/
+
+    #inscripcion, #realizacion{
+        width: 95.17%; /*95.17+2.41+2.41=100*/
+        float: left;
+        padding: 2.41545894%; /*20px de 820*/
+        margin-top: 3.65853659%;
+    }
+
+    #realizacion{
+        margin-left: 0;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    #datos> form> label {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #nombre, #descripcion, #publiopciones, #dirigido, #categoria{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #dirigido, #categoria{
+        text-align: center;
+    }
+    div#publiopciones {
+        text-align: center;
+    }
+
+    #inscripcion, #realizacion{
+        margin-top: 30px;
+    }
 }
