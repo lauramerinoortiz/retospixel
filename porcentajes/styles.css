@@ -88,13 +88,13 @@ body{
 }
 /*---LABEL---*/
 #labelNombre, #labelDesc, #labelOpciones, #labelDirigido, #labelCategoria{
-    width: 36.407767%; /*300px de 820px+4pix del borde*/
+    width: 36.4963504%; /*300px de 820px+2px del borde*/
 }
 
 #nombre, #descripcion, #publiopciones, #dirigido, #categoria{
-    width: 56.53%; /*466 de 820+4      466 + 4 pixeles de borde total 470*/
+    width: 56.9343066%; /*468 de 820+2      468 + 2 pixeles de borde total 470*/
     font-size: 1em;
-    margin-left: 6.06796117%; /*50px de 820+4*/
+    margin-left: 6.08272506%; /*50px de 820+2*/
 }
 
 
@@ -125,7 +125,7 @@ div#publiopciones{
 }
 
 #inscripcion >h3, #realizacion>h3{
-    width: 67.4486804%; /*230 de 341*/
+    min-width: 67.4486804%; /*230 de 341*/
     text-align: center;
     margin: auto;
 }
