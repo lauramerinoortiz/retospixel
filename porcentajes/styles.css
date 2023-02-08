@@ -8,13 +8,12 @@
 }
 
 html{
-    /*width: 1280px;*/
+    width: 1280px;
     background-color: #000C16;
 }
 
 body{
     width: 100%;
-    background-color: lightcoral;
 } 
 
 /*----CABECERA----*/
