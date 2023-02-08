@@ -92,7 +92,7 @@ body{
 }
 
 #nombre, #descripcion, #publiopciones, #dirigido, #categoria{
-    width: 56.5533981%; /*466 de 820+4      466 + 4 pixeles de borde total 470*/
+    width: 56.53%; /*466 de 820+4      466 + 4 pixeles de borde total 470*/
     font-size: 1em;
     margin-left: 6.06796117%; /*50px de 820+4*/
 }
